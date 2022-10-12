@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+    <style>
+        table, th, td{
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <table style="border: 1px solid black;">
+        <thead>
+        <tr>
+            <th>PRODUCTO</th>
+            <th>PRECIO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Inka Kola</td>
+            <td>2.50</td>
+        </tr>
+        <tr>
+            <td>Galletas</td>
+            <td>0.50</td>
+        </tr>
+    </tbody>
+    <tfoot>
+         <td></td>
+         <td> Tolal: 3.00</td>
+    </tfoot>
+    </table>
+    
+    
+    <ul>
+        <li>elemento1</li>
+        <li>elemento2</li>
+        <li>elemento3</li>
+    </ul>    
+    <ol>
+        <li value="50">elemento1</li><!--value indica el inicio de la lista ordenada-->
+        <li>elemento2</li>
+        <li>elemento3</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">subelemento</li>
+                <li style="list-style-type:lower-roman ;">subelemento</li>
+                <li style="list-style-type:lower-roman ;">subelemento</li>
+            </ol>
+        </li>
+    </ol> 
+    <img src="imagenes/picachu.png" width="200"  alt=""><br>
+
+    <!--los datos del formulario son enviados a traves de la etiqueta <form>, action= contiene la ruta del servidor. si la ruta /formulario 
+        si utilizamos un framework que se encarge de ocultar las extensiones de archivos utilizamos slash hacia adelante. -->
+<form action="/formulario" method="post"> <!--el metodo get envia los valores dentro de los campos de la url-->
+    <label for="nombre">Nombre</label>
+    <input value="valor por defecto"   type="text" id="nombre" name="name" placeholder="ingrese nombre"></input>
+    <br>
+    <label for="apellido">Apellido</label>
+    <input type="text" id="apellido" name="apellido" placeholder="ingrese su apellido">
+    <br>
+    <label for="comentario">Comentario</label>
+    <br>
+    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="ingrese un comentario"></textarea>
+    <br>
+    <button type="button" img="">tipo boton</button><!--puedes incluir etiquetas html-->
+    <button type="reset">tipo reset</button>
+    <button type="submit">submit</button><!--enviar formulario-->
+</form>
+
+
+
+</body>
+</html>
