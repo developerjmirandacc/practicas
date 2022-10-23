@@ -4,6 +4,8 @@
 }
 body{
     font-family: arial;
+    background-color: #f7996e;
+
  } 
  .img{
     width: 250px;
@@ -28,8 +30,17 @@ height: 400px;
 background-color:#7765B5;
 margin: 50xp;
 border-radius: 10px;
-box-shadow: 10px 10px #fff, 20px 20px rgb(58, 56, 56) ;
+box-shadow: 10px 10px #fff, 20px 20px rgb(189, 130, 130);
 padding-top: .1px;
 
-
+}
+.circle{
+  width: 14px ;
+  height: 14px;
+ background-color: #fff;
+ color: white;
+ border-radius: 50%;
+ margin-top: 30px;
+ margin-left: 7px;
+ box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
 }
