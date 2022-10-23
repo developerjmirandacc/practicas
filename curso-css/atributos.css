@@ -1,0 +1,29 @@
+/*selectores de atributo*/
+[class]{
+    background-color:bisque;
+}
+
+[type]{
+    background-color:cornflowerblue;
+}
+[value]{
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+[type="text"]{
+    background-color: azure;
+}
+[value~="cursocss.com"]{/*aplica tal cual indica el texto*/
+ font-weight: bold;
+ color: blueviolet;
+}
+
+[value$="cursocss.com"]{ /*aplica lo que termina en cursocss.com*/
+    font-size: 24px;
+}
+
+[value*="cursocss.com"]{ /*aplica en cualquier situacion como se encuentre el texto*/
+    text-decoration: underline;
+}
+

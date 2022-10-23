@@ -1,0 +1,39 @@
+/*selector universal*/
+*{
+background-color:antiquewhite;
+
+
+/*selector class*/
+}
+
+body{
+    font-family:arial;
+}
+
+.pelicula{
+    color: violet;
+}
+
+.favoritas{
+color: crimson;
+font-weight: bold;
+}
+
+/*selector id*/
+
+
+#spidermannowayhome{
+    font-size: 25px;
+    color:blue;
+
+}
+
+.espaciado{
+    letter-spacing: 10px;
+}
+
+#temporada3{
+   color: aqua;
+   font-size: 20px;
+
+}

@@ -1,0 +1,47 @@
+/*combinador de decendientes*/
+.listas .lista{
+    text-decoration: underline;
+}
+
+.todo{
+    font-weight: bold;
+}
+
+.dias .lista{
+    color:green;
+    list-style: none;
+}
+
+/*combinador de hijos directos*/
+.listas > .lista{
+    list-style:upper-roman ;
+}
+.todo> .lista{
+    background-color: antiquewhite;
+    }
+ 
+    /*combinador de hnos adyacentes*/
+
+    .subtitulo + .parrafo{
+        background-color: coral;
+        /*opacity: 1;*/
+        transition: 1s;
+        height: 0;
+        overflow: hidden;
+        
+        /*display: none;*/
+    }
+
+    .subtitulo:hover{
+        background-color: aqua;
+    }
+    .subtitulo:hover + .parrafo{
+        background-color: blueviolet;
+        opacity: 1;
+        height: 30px;
+    }
+
+
+    /*combinar hermanos generales*/
+
+    

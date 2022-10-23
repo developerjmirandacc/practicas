@@ -1,0 +1,57 @@
+/* body{
+    font-family: arial;
+    }
+    .title{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .btn{
+        display: block;
+        color: white;
+        background-color:brown;
+        padding: 15px 25px;
+        border-radius: 15px;
+        text-decoration: none;
+        width: 100px;
+        text-align: center;
+        margin: 0 auto;         
+    } */
+
+    .card{
+     background-color: steelblue; 
+     width: 300px;
+     padding: 30px;
+     border-radius: 15px;
+     color: white;
+     text-align: center;
+     font-family: arial;
+     font-size: 18px;
+     margin: 0 auto;
+     margin-top: 50px;
+            
+    }
+
+    .card__img{
+     width: 100%; 
+     display: block;
+     border-radius: 15px; 
+             
+    }
+    .card__title{
+     border-bottom: 2px solid white; 
+     
+    }
+    .card_paragraph{
+    
+    }
+    .card__cta{
+      text-decoration: none;
+      background-color: white;
+      border-radius: inherit;
+      color: midnightblue;
+      display: block;
+      padding: 15px 0;
+      font-weight: bold;
+      
+    }
