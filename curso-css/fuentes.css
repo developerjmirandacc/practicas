@@ -1,0 +1,64 @@
+/*undraw--- son ilustraciones gratuitas que puedes dar a la pagina  https://undraw.co/illustrations  */
+
+/* https://getwaves.io/   , son ilustraciones que van en nuestra pagina web*/
+
+/*vamos a google fuentes : https://fonts.google.com/  */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'poppins', sans-serif;
+}
+
+.hero{
+    height: 700px;
+    background-image:url(./icons/waves.svg), linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-size: 100% 100px, cover ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.hero_container{
+    width: 90%;
+    height: 100%;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+     margin: 0 auto;
+    overflow: hidden;
+}
+.hero_title{
+font-size: 45px;
+}
+.hero_paragraph{
+    width: 70%;
+    margin: 15px auto;
+
+}
+
+.hero_cta{
+    background-color: #fff;
+    padding: 12px 25px;
+    color: #48338d;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+}
+.hero_picture{
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.hero_img{
+    width: 100%;
+   
+    display: block;
+}
